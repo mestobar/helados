@@ -1,0 +1,86 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+ #img-logo {
+    text-align: center;
+   
+   
+    
+}
+ 
+
+/* Mueve la imagen a la izquierda */
+
+
+#logo {
+  width: 100px;
+   text-align: center;}
+body h1{
+  color: #e96479;
+  font-family: 'lolita One';
+  font-size: 48px;
+  text-align: center;
+}
+body{
+  text-align: center;
+}
+body h2{
+   font-family: 'Arial';
+  
+}
+section a.pedido{
+  background-color: #7db9b6;
+  color: black;
+  text-decoration: none;
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  
+}
+
+img {
+  width: 150px;
+  
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+ 
+   
+  body {
+   
+  }
+  /* aqui le decimos que las imagenes salten hacia abajo
+  cuando  no hay sufiente espacio */
+ 
+  header img {
+    float: none;
+  }
+ 
+  header {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+/* CSS tablets */
+@media only screen and (min-width: 600px) {
+  body {
+    background: lightpink;
+  }
+}
+/* CSS laptops */
+@media only screen and (min-width: 992px) {
+  body {
+    background: skyblue
+
+  }
+  /* las imagenes deben ir alineadas horizontalmente */
+}
