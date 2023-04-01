@@ -30,6 +30,10 @@ body h2{
    font-family: 'Arial';
   
 }
+#helado {
+   text-align: center;
+}
+
 section a.pedido{
   background-color: #7db9b6;
   color: black;
@@ -38,11 +42,13 @@ section a.pedido{
   border-width: 2px;
   border-style: solid;
   border-color: black;
+ 
+  
   
 }
 
 img {
-  width: 150px;
+  width: 400px;
   
 }
 
@@ -63,12 +69,7 @@ img {
     float: none;
   }
  
-  header {
-    text-align: center;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
+ 
 }
 /* CSS tablets */
 @media only screen and (min-width: 600px) {
